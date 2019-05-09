@@ -7,6 +7,13 @@ Onboarding and configuration skillets for GPCS
 After the plugin is installed and OTP entered, onboards a new customer
 configuration
 
+## GPCS Baseline (multi-tenancy)
+
+```work in progress```
+
+For the 1.3+ plugin allowing multiple tenants per Panorama using
+Administrative Domains for tenant isolation.
+
 ## GPCS Remote
 
 IPSEC remote network configuration with IKE/IPSEC coupled with
@@ -14,7 +21,9 @@ remote site onboarding.
 
 NOTE: site selection list is shortened demo list
 
-##
+## CPE Configs
+
+Sample text render configs for CPE devices
 
 
 
