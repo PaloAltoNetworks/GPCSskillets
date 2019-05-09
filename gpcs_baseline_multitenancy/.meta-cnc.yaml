@@ -12,7 +12,7 @@ variables:
   - name: GPCS_IP
     description: Subnet infrastructure IP
     default: 192.168.250.0/24
-    type_hint: ip_address
+    type_hint: text
   - name: ZONE_TRUST
     description: Trust zones for GPCS
     default: trust
@@ -42,13 +42,3 @@ snippets:
   - name: trusted_zone
     xpath: /config/devices/entry[@name='localhost.localdomain']/plugins/cloud_services/remote-networks/trusted-zones
     file: trusted_zone.xml
-# gold tier security rules based on mssp gold
-  - name: profile_group_unknown_url
-    xpath: /config/devices/entry[@name='localhost.localdomain']/device-group/entry[@name='Remote_Network_Device_Group']/profile-group
-    file: ../../internet_gateway/panorama/gold/profile_group_unknown_url.xml
-  - name: tag
-    xpath: /config/devices/entry[@name='localhost.localdomain']/device-group/entry[@name='Remote_Network_Device_Group']/tag
-    file: ../../internet_gateway/panorama/gold/tag.xml
-  - name: security_rules-security-rules-gold
-    xpath: /config/devices/entry[@name='localhost.localdomain']/device-group/entry[@name='Remote_Network_Device_Group']/post-rulebase/security
-    file: ../../internet_gateway/panorama/gold/security_rules_gold.xml

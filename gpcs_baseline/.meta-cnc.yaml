@@ -14,7 +14,7 @@ variables:
   - name: GPCS_IP
     description: Subnet infrastructure IP
     default: 192.168.250.0/24
-    type_hint: ip_address
+    type_hint: text
   - name: ZONE_TRUST
     description: Trust zones for GPCS
     default: trust
