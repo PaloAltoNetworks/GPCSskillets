@@ -1,22 +1,6 @@
 # GPCS Skillets
 
-Onboarding and configuration skillets for GPCS
-
-## GPCS Baseline (non multi-tenancy)
-
-After the plugin is installed and OTP entered, onboards a new customer
-configuration
-
-## GPCS Remote
-
-IPSEC remote network configuration with IKE/IPSEC coupled with
-remote site onboarding.
-
-NOTE: site selection list is shortened demo list
-
-##
-
-
+Not released. Work in progress using the develop branch
 
 
 ## Support Policy
