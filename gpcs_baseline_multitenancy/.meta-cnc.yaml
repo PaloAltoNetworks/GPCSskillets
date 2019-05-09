@@ -6,7 +6,9 @@ extends:
 
 labels:
   service_type: gpcs
-  collection: mssp
+  collection:
+    - mssp
+    - gpcs
 
 variables:
   - name: GPCS_IP
