@@ -2,7 +2,7 @@ name: gpcs_baseline
 label: GPCS New Cloud Instance Configuration
 description: GPCS onboarding of new cloud instance
 type: panorama-gpcs
-extends: skillet_panorama
+extends:
 
 labels:
   service_type: gpcs

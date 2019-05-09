@@ -6,7 +6,9 @@ extends:
 
 labels:
   service_type: gpcs-cpe
-  collection: mssp
+  collection:
+    - mssp
+    - gpcs
 
 
 variables:
